@@ -1,6 +1,57 @@
+@font-face {
+    font-family: 'Condiment';
+    src: url('fonts/condiment-regular-webfont.eot');
+    src: url('fonts/condiment-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/condiment-regular-webfont.woff') format('woff'),
+         url('fonts/condiment-regular-webfont.ttf') format('truetype'),
+         url('fonts/condiment-regular-webfont.svg#MyFont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
   font-family: 'Didact Gothic', sans-serif;
   -webkit-font-smoothing: antialiased;
   background-color: #FAFAFA;
   margin: 0;
+}
+
+.restrictor {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.header {
+  background: #E6E6E6;
+  height: 72px;
+  box-shadow: 0 3px 6px #908888;
+}
+
+.header__logo {
+  font-family: 'Condiment';
+  font-size: 44px;
+  padding-top: 10px;
+}
+
+.intro__description {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.intro__block {
+  background: #201B22;
+  margin-top: 30px;
+  padding: 24px 0;
+}
+
+.intro-pictures {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-pictures__pic {
+  width: 160px;
 }
